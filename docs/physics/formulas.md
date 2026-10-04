@@ -19,7 +19,7 @@ $$
 Its vector points toward the central body:
 
 $$
-\mathbf{a}_g = -\frac{\mu}{r^2}\hat{\mathbf{r}}
+\mathbf{a}_g = -\frac{\mu}{r^2}\hat{\mathbf{r}} = -\frac{\mu}{r^3}\vec{\mathbf{r}}
 $$
 
 Here, $\mu = GM$, where $G$ is the gravitational constant and $M$ is the central body's mass; $r$ is the distance from its center.
