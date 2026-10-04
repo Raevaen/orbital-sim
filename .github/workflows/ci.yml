@@ -2,9 +2,10 @@ name: CI
 
 on:
   push:
-    paths-ignore: ["docs/**"]
+    paths-ignore: ["docs/**", "README.md"]
     branches: ["main"]
   pull_request:
+    paths-ignore: ["docs/**", "README.md"]
 
 jobs:
   check:
