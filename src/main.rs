@@ -23,7 +23,6 @@ mod tests {
     #[test]
     fn calculates_circular_speed() {
         let speed = circular_speed(90_000.0, 160.0);
-
         assert_eq!(speed, Some(23.717082451262844));
     }
 
