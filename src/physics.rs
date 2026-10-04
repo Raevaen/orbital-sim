@@ -1,4 +1,3 @@
-
 pub(crate) fn circular_speed(mu: f64, radius: f64) -> Option<f64> {
     if !mu.is_finite() || mu <= 0.0 || !radius.is_finite() || radius <= 0.0 {
         return None;
