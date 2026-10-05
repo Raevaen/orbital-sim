@@ -1,6 +1,6 @@
 // Logic here
-
 mod physics;
+mod vec2;
 use physics::circular_speed;
 
 fn main() {
